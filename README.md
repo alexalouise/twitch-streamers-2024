@@ -1,13 +1,14 @@
-# 📊 Twitch Streamers Analysis 2024 (SQL Data Exploration)
+# 📊 Twitch Streamers Analysis 2024 (SQL & Excel Portfolio)
 
 ## 📌 Project Overview
-This project explores a dataset of 1,000 top Twitch streamers to analyze broadcasting habits, popular gaming categories, viewer engagement, and creator performance. Using **SQL**, I answered core business and analytical questions ranging from basic aggregations to intermediate calculations like viewership concentration and creator segmentation.
+This project explores a dataset of 1,000 top Twitch streamers to analyze broadcasting habits, popular gaming categories, viewer engagement, and creator performance. **Microsoft Excel** for data cleaning and dashboards. Using **SQL**, I answered core business and analytical questions ranging from basic aggregations to intermediate calculations like viewership concentration and creator segmentation. 
 
 ---
 
 ## 📁 What This Project Includes
 - **`streamers2024.csv`**: The raw dataset containing Twitch streamer stats (rank, followers, total views, active days, games played, stream duration, language, etc.).
 - **`twitch.sql`**: A complete collection of structured SQL queries used to analyze key metrics and extract insights from the data.
+- **`streamers_2024.xlsx`**: An Excel workbook featuring cleaned data, calculated custom columns, Pivot Tables, and an interactive dashboard.
 
 ---
 
@@ -15,6 +16,7 @@ This project explores a dataset of 1,000 top Twitch streamers to analyze broadca
 - **Database Engine & Environment:** Microsoft SQL Server Management Studio (SSMS)
 - **Language:** T-SQL / Standard SQL
 - **Source Data:** CSV format
+- **Microsoft Excel:** Data cleaning, data formatting, Pivot Tables
 
 ---
 
@@ -29,6 +31,12 @@ During this project, I used several core SQL concepts to process and analyze the
 * **Calculated Fields & Metrics:** Custom mathematical operations (e.g., ratio calculations and market share percentages)
 
 ---
+
+## ⚡ Excel Concepts Applied
+For this project, I applied simple pivot tables, visualizations, and formatting.
+
+* **Data Cleaning & Formatting:** Custom number types, decimal formatting, comma separation, and Excel Table setup.
+* **Summarization & Visuals:** Pivot Tables and visual styling.
 
 ## 💡 Key Findings & Highlights
 1. **Variety vs. Focused Streamers:** Variety streamers (averaging >2 games per stream) pull significantly higher average viewers (~33.6k) compared to single-game creators (~17.6k).
